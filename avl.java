@@ -34,7 +34,7 @@ class AVLTree {
     }
  
     
-    Node rightRotate(Node y) {
+    Node rightRotate(Node y) { 
         Node x = y.left;
         Node T2 = x.right;
  
